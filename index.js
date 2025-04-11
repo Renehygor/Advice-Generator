@@ -25,7 +25,7 @@
 // }
 
 
-//Correção
+// Correção do curso
 const botao = document.querySelector("#botao");
 const numeroConselho = document.querySelector("#titulo")
 const conselho = document.querySelector("#descricao");
@@ -36,7 +36,7 @@ async function getAdvice() {
         const response = await fetch("https://api.adviceslip.com/advice");
 
         if (!response.ok) {
-            throw new Error("Ocorreu um erro ao tentar buscar as informações da API");
+            throw new Error("Ocorreu um ERRO ao tentar buscar as informações da API");
         }
 
         const conteudoConselho = await response.json();
