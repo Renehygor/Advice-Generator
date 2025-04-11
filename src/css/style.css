@@ -20,11 +20,11 @@ body{
     padding:20px  ;
     max-width: 450px;
 }
-#conselho .titulo{
+#conselho #titulo{
     display: flex;
     justify-content:center;
 }
-.container .titulo{
+.container #titulo{
     color: hsl(150, 100%, 66%);
     text-transform: uppercase;
     letter-spacing: 5px;
